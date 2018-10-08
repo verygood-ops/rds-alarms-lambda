@@ -1,8 +1,9 @@
 ## RDS Lambda Alarms
 
-A set of periodic RDS queries for RDS DB.
+A set of periodic RDS queries in a form of AWS Lambda.
 
 See [deadlocks.py](rds_alarms_lambda/deadlocks.py) for reference. 
+
 Availbale execution periods:
  - every_minute
  - every_five_minutes
