@@ -12,4 +12,4 @@ RUN rm -rf vendor/* && \
     rm -rf .idea && \
     find . -name \*.pyc -delete
 
-RUN ./scripts/requirements.sh
+RUN ./requirements.sh

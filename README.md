@@ -13,9 +13,9 @@ Availbale execution periods:
 
 ## Updating python dependencies
 
-1. Update [requirements.sh](./scripts/requirements.sh)
+1. Update [requirements.sh](ops/requirements.sh)
 2. `rm -rf ./vendor`
-3. `./scripts/requirements.sh`
+3. `./requirements.sh`
 
 ## Release Process
 
@@ -24,6 +24,6 @@ The `./vendor` dir is rebuilt inside the container every time.
 See [Dockerfile](./Dockerfile.package)
 
 ```bash
-./scripts/package.sh
-./scripts/stage.sh dev|prod
+./ops/package.sh
+./ops/stage.sh dev|prod
 ```
