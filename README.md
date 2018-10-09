@@ -1,4 +1,4 @@
-# RDS Lambda Alarms
+# RDS Alarms Lambda
 
 A set of periodic RDS queries in a form of AWS Lambda.
 
@@ -16,6 +16,8 @@ A set of periodic RDS queries in a form of AWS Lambda.
 - `every_day`
 
 ## Hacking
+
+This code distributed under MIT. Pull requests welcome.
 
 #### Updating python dependencies
 
