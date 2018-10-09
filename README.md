@@ -13,7 +13,7 @@ Availbale execution periods:
 
 ## Updating python dependencies
 
-1. Update [requirements.sh](ops/requirements.sh)
+1. Update [requirements.sh](./requirements.sh)
 2. `rm -rf ./vendor`
 3. `./requirements.sh`
 
